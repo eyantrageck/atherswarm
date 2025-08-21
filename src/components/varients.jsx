@@ -1,4 +1,4 @@
-git branch - M mainexport const fadeIn = (direction, amount, delay) => {
+export const fadeIn = (direction, amount, delay) => {
   return {
     hidden: {
       y: direction === 'up' ? amount : direction === 'down' ? -amount : 0,
@@ -59,4 +59,3 @@ export const card = (direction, amount, delay, rotate) => {
     }
   };
 };
-
